@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-// test ci trigger
+
 
 #include "rtthread.h"
 #include "bf0_hal.h"
