@@ -182,9 +182,9 @@ static void pulse_encoder_timeout_handle(void *parameter)
         {
             new_volume = 0; // 最小音量为0
         }
-        else if (new_volume > 15)
+        else if (new_volume > 14)
         {
-            new_volume = 15; // 最大音量为15
+            new_volume = 14; // 最大音量为14
         }
 
         audio_server_set_private_volume(AUDIO_TYPE_LOCAL_MUSIC, new_volume);
